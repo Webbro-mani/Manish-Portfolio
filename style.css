@@ -59,6 +59,11 @@ h1 {
     z-index: 1;
 }
 
+.bg-blur{
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
 .nav-link{
     color: rgb(0 0 0 / 60%);
     transition: color 0.3s ease-in-out;
